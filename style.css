@@ -1,0 +1,84 @@
+* {
+  background-color: #f5f2f2;
+  font-family: Open Sans;
+}
+
+.container {
+  margin-top: 42px;
+}
+
+.nav-item {
+  margin-left: 8px;
+}
+
+.nav-link:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #c9ccd5;
+  width: 75%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+.h1 {
+  padding-top: 163px;
+  font-family: "Open Sans";
+  font-style: bold;
+  font-size: 58px;
+}
+
+#navbarNav {
+  font-family: "Open Sans";
+  font-size: 25px;
+}
+
+.h2 {
+  padding-top: 42px;
+  font-family: "Open Sans";
+  font-size: 18px;
+}
+
+.chart {
+  margin-top: -9px;
+}
+
+.row {
+  padding-top: 98px;
+}
+
+.card {
+  background-color: #f5f2f2;
+  border: none;
+}
+
+.button {
+  padding-top: 64px;
+}
+
+.btn-primary {
+  color: #000000;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: bold;
+  background-color: #93b5c6;
+  border-color: #93b5c6;
+  margin-right: 56px;
+  width: 250px;
+  height: 45px;
+  border-radius: 57px;
+}
+
+.btn-secondary {
+  color: #000000;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: bold;
+  background-color: #e4d8dc;
+  border-color: #e4d8dc;
+  width: 150px;
+  height: 45px;
+  border-radius: 57px;
+}
